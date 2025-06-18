@@ -36,8 +36,6 @@ Key findings include:
 
 ## 📊 Usage
 
-## To explore or reproduce the analysis
-
 1. **Clone the repository**:
    ```bash
    git clone https://github.com/your-username/responsible-service.git
