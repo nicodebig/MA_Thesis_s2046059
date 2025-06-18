@@ -36,23 +36,37 @@ Key findings include:
 
 ## 📊 Usage
 
-To explore or reproduce the analysis:
+## To explore or reproduce the analysis
 
-1. Clone the repository:
+1. **Clone the repository**:
    ```bash
    git clone https://github.com/your-username/responsible-service.git
    cd responsible-service
    ```
 
-2. Install dependencies:
+2. **Install dependencies**:
+
+   > ⚠️ Dependencies are split across multiple files for modularity, and **some contain conflicting versions of the same packages**.  
+   > **Only install the requirements file(s) corresponding to the module(s) you intend to run.**
+
+   Use one of the following based on the part of the notebook you're working with:
+
+   - `requirements_1.txt` — for **Text Generation Tasks using ICL and DPO**
+   - `requirements_2.txt` — for **Text Generation Tasks using SFT**
+   - `requirements_3.txt` — for **Dataset Generation and Text Generation Overlap Metrics**
+   - `requirements_nlp.txt` — for **Linguistic Data Profiling**
+
+   For example, to run the linguistic profiling section:
    ```bash
    pip install -r requirements_nlp.txt
    ```
 
-3. Open and run the Jupyter notebook:
+3. **Open and run the Jupyter notebook**:
    ```bash
    jupyter notebook THESIS_CODE.ipynb
    ```
+
+> ✅ **Tip**: If you plan to run multiple modules with conflicting dependencies, consider using virtual environments or tools like `venv` or `conda` to isolate them.
 
 ## 📂 Dataset: RESPONSible Service
 
@@ -61,15 +75,6 @@ Each `.parquet` file contains 1,000 customer service interactions focusing on on
 - `request`: Customer query.
 - `response0`: Initial LLM-generated reply reflecting the target style.
 - `response1`: A more stylistically marked version of `response0`.
-
-## 🔧 Requirements
-
-Dependencies are split across several requirements files for modularity:
-
-- `requirements_1.txt`: Text Generation Tasks (ICL and DPO).
-- `requirements_2.txt`: Text Generation Tasks (SFT).
-- `requirements_3.txt`: Dataset Generation, Text Generation Overlap Metrics.
-- `requirements_nlp.txt`: Dependencies for the linguistic data profiling section.
 
 ## 📄 License and Ethics
 
