@@ -66,12 +66,15 @@ Each `.parquet` file contains 1,000 customer service interactions focusing on on
 
 Dependencies are split across several requirements files for modularity:
 
-- `requirements_1.txt`, `requirements_2.txt`, `requirements_3.txt`: General dependencies (e.g., pandas, matplotlib, sklearn).
+- `requirements_1.txt`: Text Generation Tasks (ICL and DPO).
+- `requirements_2.txt`: Text Generation Tasks (SFT).
+- `requirements_3.txt`: Dataset Generation, Text Generation Overlap Metrics.
 - `requirements_nlp.txt`: Dependencies for the linguistic data profiling section.
 
 ## 📄 License and Ethics
 
 - All data were **synthetically generated** using GPT-4o.
+- The generated data are in English.
 - No real customer data was used.
 - The project complies with ethical standards for computational linguistics research.
 
