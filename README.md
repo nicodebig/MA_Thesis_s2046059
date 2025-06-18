@@ -70,6 +70,13 @@ Each `.parquet` file contains 1,000 customer service interactions focusing on on
 - No real customer data were used.
 - The project complies with ethical standards for computational linguistics research.
 
+## 📚 Citation
+
+If you use this work, please cite the following thesis:
+
+> **Nicolò de Bigontina.** *RESPONSible Service: Evaluating Communication Styles in LLM-Generated Customer Service Interactions.* Master's Thesis, Leiden University, 2025.  
+> [https://hdl.handle.net/your-thesis-link](https://hdl.handle.net/your-thesis-link)
+
 ## 📬 Contact
 
 For questions or collaboration inquiries, please contact:
