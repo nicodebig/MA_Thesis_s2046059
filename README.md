@@ -51,7 +51,7 @@ Key findings include:
 
    - `requirements_1.txt` — for **Text Generation Tasks using ICL and DPO**
    - `requirements_2.txt` — for **Text Generation Tasks using SFT**
-   - `requirements_3.txt` — for **Dataset Generation and Text Generation Overlap Metrics**
+   - `requirements_3.txt` — for **Dataset Generation** and **Text Generation Overlap Metrics**
    - `requirements_nlp.txt` — for **Linguistic Data Profiling**
 
    For example, to run the linguistic profiling section:
