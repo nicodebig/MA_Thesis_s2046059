@@ -75,7 +75,7 @@ Each `.parquet` file contains 1,000 customer service interactions focusing on on
 If you use this work, please cite the following thesis:
 
 > **Nicolò de Bigontina.** *RESPONSible Service: Evaluating Communication Styles in LLM-Generated Customer Service Interactions.* Master's Thesis, Leiden University, 2025.  
-> [https://hdl.handle.net/your-thesis-link](https://hdl.handle.net/your-thesis-link)
+> [LINK TO BE ADDED SOON](https://hdl.handle.net/your-thesis-link)
 
 ## 📬 Contact
 
