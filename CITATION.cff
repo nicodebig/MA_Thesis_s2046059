@@ -1,1 +1,7 @@
-
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "de Bigontina"
+  given-names: "Nicolò"
+title: "RESPONSible Service: Evaluating Communication Styles in LLM-Generated Customer Service Interactions"
+url: "LINK NOT AVAILABLE YET"
